@@ -1,0 +1,18 @@
+spring:
+  main:
+    web-application-type : REACTIVE
+  application:
+    name: openia
+  ai:
+    openai:
+      api-key: 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
+      api-url: https://api.openai.com/v1/chat/completions
+      chat:
+        options:
+          model: gpt-4o-mini
+  openia:
+    title: 'Pergunte ao meu OvO.'
+    version: 'MELANCIA 01'
+    description: 'Faça perguntas ao meu OvO e vê o que ele te responde.'
+    name: 'Tigão DESSS'
+    email: 'micheltiago@hotmail.com'
