@@ -9,9 +9,7 @@ import java.util.List;
 @Builder
 @Getter
 @Setter
-public class ImageMessageDto {
-
+public class MessageDto {
     private String role;
-    private List<ContentDto> contents;
-
+    private List<ContentDto> content;
 }

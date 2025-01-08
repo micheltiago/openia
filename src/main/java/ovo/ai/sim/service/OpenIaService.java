@@ -3,6 +3,7 @@ package ovo.ai.sim.service;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 

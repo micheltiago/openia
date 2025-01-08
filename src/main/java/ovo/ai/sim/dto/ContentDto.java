@@ -11,5 +11,5 @@ public class ContentDto {
 
     private String type;
     private String text;
-    private String image_url;
+    private UrlDto imageUrl;
 }
