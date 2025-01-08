@@ -14,18 +14,21 @@ public class ImageUtil {
     public static ImageDto montarTstIMG() {
         return ImageDto.builder()
                 .model("gpt-4o-mini")
-                .messages(montaMessage())
+                .messages(montaMessages())
                 .maxTokens("300")
                 .build();
     }
 
-    private static List<MessageDto> montaMessage() {
-        MessageDto message = MessageDto
+    private static List<MessageDto> montaMessages() {
+        return List.of(montamessage01());
+    }
+
+    private static MessageDto montamessage01() {
+        return MessageDto
                 .builder()
                 .role("user")
                 .content(montaContent())
                 .build();
-        return List.of(message);
     }
 
     private static List<ContentDto> montaContent() {
