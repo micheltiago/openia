@@ -5,7 +5,7 @@ spring:
     name: openia
   ai:
     openai:
-      api-key: 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
+      api-key: <Cole sua chave aqui o site ta no README>
       api-url: https://api.openai.com/v1/chat/completions
       chat:
         options:
